@@ -1,0 +1,7 @@
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\obj\Debug\ConsoleClse2.csprojAssemblyReference.cache
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\obj\Debug\ConsoleClse2.csproj.CoreCompileInputs.cache
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\bin\Debug\ConsoleClse2.exe.config
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\bin\Debug\ConsoleClse2.exe
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\bin\Debug\ConsoleClse2.pdb
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\obj\Debug\ConsoleClse2.exe
+C:\Users\t11641.training03\Desktop\Carpeta .NET\Clase2\SolucionConsoleClse2\ConsoleClse2\obj\Debug\ConsoleClse2.pdb
