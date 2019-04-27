@@ -4,53 +4,64 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjemploIF
+namespace EjemploSwitch
 {
     class Program
     {
         static void Main(string[] args)
         {
-            /*Dados 3 numeros enteros
-             * mostrar en consola el numero mayor
-             */
+            /* Ingresar dos valores 
+             * primer valor 1, 2 o 3, 1 es Responsable inscripto
+             * 2 consumidor final 
+            * 3 exento 
+            * Segundo valor : importe bruto
+            * mostrar el total que si es 1 se suma el iva 21%
+            * 2 18%
+            * 3 0% */
 
-             //declaro mis variables
-            int intNro1;
-            int intNro2;
-            int intNro3;
+            // declaro mis variables
 
-            //pido al usuario los numeros 
-            Console.WriteLine("inserte el numero 1: ");
-            intNro1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("inserte el numero 2: ");
-            intNro2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("inserte el numero 3: ");
-            intNro3 = Convert.ToInt32(Console.ReadLine());
+            int intCodigoIva;
+            double dblImporte;
+            double dblTotal;
+            const double IVA21 = 0.21;
+            const double IVA18 = 0.18;
 
-            // voy a empezar mi comparación
-            //en el caso del 2 mas grande
+            // Pido al usuario que ingrese los dos valores
 
-            if(intNro1<=intNro2 && intNro3<=intNro2)
+            Console.Write("Ingrese codigo de Iva: ");
+            intCodigoIva = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Ingrese el importe:");
+            dblImporte=Convert.ToDouble(Console.ReadLine());
+
+            //ingreso el uso de switch
+
+            switch (intCodigoIva)
+
             {
-                Console.WriteLine("el numero mas grande es el {0} " , intNro2);
+                
+                case 1:
+                    dblTotal = dblImporte + dblImporte * IVA21;
+                    break;
+                case 2:
+                    dblTotal = dblImporte + dblImporte * IVA18;
+                    break;
+                case 3:
+                    dblTotal = dblImporte;
+                    break;
+                default:
+                    dblTotal = dblImporte;
+                    break;
+
             }
-            //en el caso del 1 mas grande
 
-            if(intNro2<=intNro1 && intNro3<=intNro1)
-            {
-                Console.WriteLine("el numero mas grande es el {0}",intNro1);
+            Console.Write("Total a pagar {0}", dblTotal);
 
-            }
-            //en el caso de 3 mas grande
-
-            if(intNro1<=intNro3 && intNro2<=intNro3)
-            {
-                Console.WriteLine("el numero mas grande es el {0}",intNro3);
-
-            }
             //pauso la consola
 
             Console.ReadKey();
+
+           
 
         }
     }
