@@ -1,0 +1,144 @@
+Esto copiar y pegar ya con todo armado
+using System;
+
+
+namespace Clase4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Usando do e if, mostrar en consola los primeros n numeros pares con n ingresado por teclado
+
+            //Declaro mis variables a utilizar
+
+            int intContador = 0;
+            int intNro = 0;
+            //Pido que ingrese el numero hasta cual quiero ver
+
+            Console.WriteLine("Ingrese hasta que numero par quiere ver");
+
+            do
+            {
+                intNro = Convert.ToInt32(Console.ReadLine());
+
+                if ( intNro >= 2)
+                {
+                    break;
+                }
+            } while (true);
+
+      
+            do
+
+            {
+                intContador +=2;
+                Console.WriteLine(intContador);
+
+            } while (intContador<intNro && intContador %2 ==0);
+
+
+            if (true)
+            {
+
+            }
+            //pausa en la consola
+            Console.ReadKey();
+        }
+    }
+}
+-----------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WhileEjercicio
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Mostrar los primeros 4 numeros pares
+
+            //declaro mis variables
+
+            int intNro = 2;
+             
+            while (intNro<10)
+            {
+                Console.WriteLine(intNro);
+                intNro += 2;
+                
+            }
+            Console.ReadKey();
+        }
+    }
+}
+-------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EjercicioFOR
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //voy a mostrar los primeros 4 numeros pares
+
+
+            for (int i = 2; i <=8 ; i++)
+            {
+                Console.WriteLine(i++);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
+--------------------------------------
+
+using System;
+
+namespace Multiplicacion
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Solcitar un numero del 1 al 9 y genera la tabla de multiplicar
+
+            //Declaro mis variables a utilizar
+
+            //Pido numero al usuario para generar la tabla
+
+            //Console.WriteLine("Ingrese el numero del cual quiere ver la tabla de multiplicar");
+            //int intMultiplicado = Convert.ToInt32(Console.ReadLine());
+
+            //Iniciar la tabla
+
+            // declaro variable
+
+            int intMultiplicado;
+            int intNro;
+
+            Console.WriteLine("Ingrese el numero del cual quiere ver la tabla de multiplicar");
+            intMultiplicado = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= 9; i++)
+            {
+
+                intNro = intMultiplicado * i;
+                Console.WriteLine(intNro);
+            }
+
+            Console.ReadKey();
+        }
+    }
+}
