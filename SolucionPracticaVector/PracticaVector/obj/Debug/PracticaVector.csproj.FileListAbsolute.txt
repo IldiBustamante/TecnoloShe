@@ -1,0 +1,7 @@
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\obj\Debug\PracticaVector.csprojAssemblyReference.cache
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\obj\Debug\PracticaVector.csproj.CoreCompileInputs.cache
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\bin\Debug\PracticaVector.exe.config
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\bin\Debug\PracticaVector.exe
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\bin\Debug\PracticaVector.pdb
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\obj\Debug\PracticaVector.exe
+C:\Users\t11641.training03\Desktop\Carpeta .NET\SolucionPracticaVector\PracticaVector\obj\Debug\PracticaVector.pdb
