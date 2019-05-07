@@ -1,0 +1,127 @@
+
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\t11641.training03>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 60E1-AC4D
+
+ Directory of C:\Users\t11641.training03
+
+05/06/2019  07:12 PM    <DIR>          .
+05/06/2019  07:12 PM    <DIR>          ..
+04/24/2019  07:42 PM    <DIR>          .dotnet
+04/17/2019  08:49 PM    <DIR>          .omnisharp
+04/15/2019  08:38 PM    <DIR>          .vscode
+04/15/2019  12:29 PM    <DIR>          3D Objects
+04/15/2019  12:29 PM    <DIR>          Contacts
+05/06/2019  08:08 PM    <DIR>          Desktop
+04/24/2019  07:52 PM    <DIR>          Documents
+05/06/2019  07:32 PM    <DIR>          Downloads
+04/15/2019  12:29 PM    <DIR>          Favorites
+04/15/2019  12:29 PM    <DIR>          Links
+04/15/2019  12:29 PM    <DIR>          Music
+04/15/2019  04:39 PM    <DIR>          OneDrive
+04/15/2019  12:29 PM    <DIR>          Pictures
+04/17/2019  05:06 PM    <DIR>          Roaming
+04/15/2019  12:29 PM    <DIR>          Saved Games
+04/15/2019  12:29 PM    <DIR>          Searches
+04/24/2019  07:53 PM    <DIR>          source
+04/15/2019  12:29 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              20 Dir(s)  55,752,806,400 bytes free
+
+C:\Users\t11641.training03>cd Desktop
+
+C:\Users\t11641.training03\Desktop>cd ..
+
+C:\Users\t11641.training03>cd Desktop
+
+C:\Users\t11641.training03\Desktop>cd nueva
+
+C:\Users\t11641.training03\Desktop\Nueva>git init
+Initialized empty Git repository in C:/Users/t11641.training03/Desktop/Nueva/.git/
+
+C:\Users\t11641.training03\Desktop\Nueva>git config --local user.name "Ildara"
+
+C:\Users\t11641.training03\Desktop\Nueva>git config --local user.email "ild.sweet@hotmail.com"
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\t11641.training03\Desktop\Nueva>git add index.html
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+
+C:\Users\t11641.training03\Desktop\Nueva>git commit  -m "Creo nuevo index"
+[master (root-commit) 8501029] Creo nuevo index
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\t11641.training03\Desktop\Nueva>git add index.html
+
+C:\Users\t11641.training03\Desktop\Nueva>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+
+
+C:\Users\t11641.training03\Desktop\Nueva>git commit
+[master c753be1] agrego plantilla de html
+ 1 file changed, 12 insertions(+)
+
+C:\Users\t11641.training03\Desktop\Nueva>git log
+commit c753be110fad0d20cd74fb5c55ee8ac0910f1712 (HEAD -> master)
+Author: Ildara <ild.sweet@hotmail.com>
+Date:   Mon May 6 21:22:43 2019 -0300
+
+    agrego plantilla de html
+
+commit 85010290af1488ee42fb2d5e158edd195dc2e610
+Author: Ildara <ild.sweet@hotmail.com>
+Date:   Mon May 6 21:17:03 2019 -0300
+
+    Creo nuevo index
+
+C:\Users\t11641.training03\Desktop\Nueva>git log --oneline
+c753be1 (HEAD -> master) agrego plantilla de html
+8501029 Creo nuevo index
+
+C:\Users\t11641.training03\Desktop\Nueva>
