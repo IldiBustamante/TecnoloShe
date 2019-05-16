@@ -1,0 +1,46 @@
+#contenedor{
+    display: flex;
+    height: 100px;
+    border: 10px solid hotpink;
+    align-items: center;
+    background-color: blanchedalmond;
+    box-shadow: 6px 15px 17px rgba(30,15, 10, 0.5);
+}
+
+.hijo{
+    border: 1px solid;
+    width: 400px;
+    
+    /* si no pongo color es negro directamente */
+    /* PSEUDO CLASES
+    puedo aplicarla a un selector para denotar algun comportamiento de etiquetas,
+    tal como pasar el mouse, click, 
+    hay pseudo elementos y pseudo selectores
+    elementos:espacios reducidos
+    selectores:elementos
+
+    selector(#):mi pseudo clase y lo que queda de css
+    :nth-child(numero) 
+    :first-child
+    :last-child
+     */
+}
+
+#dos{
+    order: 17;
+}
+
+
+#contenedor div:nth-child(2){
+    background-color: lavender;
+}
+
+/* el hover es combinable con los pseudo elementos */
+
+#contenedor div:nth-child(2):hover{
+    background-color: crimson;
+    color: floralwhite;
+
+}
+
+@media <print>
