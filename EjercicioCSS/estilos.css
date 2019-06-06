@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#ffcccc;
+    padding: 16px 200px;
+    
+}
+
+h1,a{
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+#banner{
+    height: 350px;
+    background-color: floralwhite;
+    background-image: url("fondito2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right top;
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    
+}
+
+#banner>div{
+    background-color: rgba(255, 230, 242, 0.4);
+    text-shadow: 12px grey;
+    width: 300px;
+    text-align: justify;
+    box-shadow: 60px white;
+    padding: 16px;
+    text-shadow:1px 1px 1px whitesmoke;
+}
+
+#banner>div h2{
+    color: #ffcccc;
+    font-size: 50px;
+    margin-bottom: 16px;
+    text-shadow: 1px 1px 1px whitesmoke;
+} 
+
+.servicio{
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #ffcccc;
+    text-align: center;
+    flex-direction: row;
+}
+
+#services>div h2{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    background-color: #ffcccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+
+#services>div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffcccc;
+}
+
