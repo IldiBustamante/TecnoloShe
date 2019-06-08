@@ -14,29 +14,46 @@
             <label>Nombre</label>
             <input type="text" placeholder="Inserta tu texto">
             <!--  <button>Mandamelo</button>-->
-            <input type="submit" value="Mandamelo">
+            <input type="submit" value="Mandamelo" id="nombre">
         </div>
       <div>
             <label>Edad</label>
-            <input type="number" placeholder="ingresa tu edad">
+            <input type="number" placeholder="ingresa tu edad" id="edad">
       </div>
       
       <div>
             <label>E-mail</label>
-            <input type="email" placeholder="Ingresa tu e-mail">
+            <input type="email" placeholder="Ingresa tu e-mail" id="email">
       </div>
       <div>
           <label>Contraseña</label>
-          <input type="password" placeholder="Ingresa tu contraseña">
+          <input type="password" placeholder="Ingresa tu contraseña" id="contraseña">
       </div>
 
       <div>
           <label>Nacionalidad</label>
-          <select id="Nacionalidad">
+          <select id="Nacionalidad" >
+              <option value="0">Elige una opcion...</option>
               <option value="ar">Argentina</option>
               <option value="ve">Venezolana</option>
               <option value="ch">China</option>
             </select>
+      </div>
+
+      <div>
+          <label>Comentarios</label>
+          <textarea id="Comentarios"></textarea> 
+      </div>
+      <div>
+          <label for="masc">Masculino</label>
+          <input type="radio" id="masc" name="genero">
+          <label for="fem">Femenino</label>
+          <input type="radio" id="fem" name="genero">
+      </div>
+
+      <div>
+          <label for="tou">Terminos y condiciones</label>
+          <input type="checkbox" id="tou">
       </div>
     </form>
 
