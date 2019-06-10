@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    font-size: 15px;
+    
+}
+
+p{
+    color: tomato;
+    font-size: 20px;
+    font: bold 100% monospace;
+    border:solid;
+    display: flex;
+    box-align: center;
+    width: 150px;
+    text-align: center;
+}
+
+#nombre{
+    background-color: gainsboro ;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+input{
+    background-color: snow;
+}
+
+select , option{
+    background-color: snow;
+}
+
+textarea{
+    background-color: snow;
+    bottom: auto;
+}
+
+label{
+    border: double papayawhip;
+    background-color: snow;
+}
+
+masc,fem{
+    display: flex;
+   flex-flow: row;
+}
