@@ -1,0 +1,7 @@
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\obj\Debug\Prueba.csprojAssemblyReference.cache
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\T11641.Training20\Desktop\SolucionPrueba\Prueba\obj\Debug\Prueba.pdb

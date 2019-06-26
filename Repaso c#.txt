@@ -1,0 +1,15 @@
+cuando hay muchos if usar switch
+no syauda para el menu
+hay varios casos que tienen cada uno su cosa
+recordar usar el break porque no lleva llaves
+al final va el default
+los switcch no puede usar rangos, pero si igualdades
+boolean es verdadero o falso 
+todos los lenguajes de programacion hay colecciones
+el array y el for van juntos
+ver donde empieza
+se construye en la consola cmd de windows
+string[,] alumnas2=new string [5,2] arma una matriz de dos dimensiones
+breakpoint nos hace que el programa pare donde lo marco 
+ctrl k+c comenta ctrl k + u descomenta
+do while y while son bucles pero la condicion se controla con los parentesis
